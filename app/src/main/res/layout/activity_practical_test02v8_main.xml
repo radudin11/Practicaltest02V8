@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Câmp pentru specificarea unei valute -->
+    <EditText
+        android:id="@+id/currencyInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introdu valuta (ex: USD)"
+        android:inputType="text" />
+
+    <!-- Buton pentru inițierea cererii -->
+    <Button
+        android:id="@+id/requestButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inițiază Cererea"
+        android:layout_marginTop="16dp" />
+
+    <!-- Câmp pentru afișarea rezultatului -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rezultat:"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"
+        android:background="#f0f0f0" />
+
+    <!-- Buton pentru navigat la activitatea 2 -->
+    <Button
+        android:id="@+id/navigateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mergi la Activitatea 2"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/t1Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduceți T1" />
+
+    <EditText
+        android:id="@+id/t2Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduceți T2" />
+
+    <EditText
+        android:id="@+id/operationInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Operație (plus/minus/multiply/divide)" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculează" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Rezultat"
+        android:textSize="18sp" />
+
+</LinearLayout>
